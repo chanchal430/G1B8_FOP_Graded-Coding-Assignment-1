@@ -13,14 +13,14 @@ package com.greatlearning.department.app;
 	        System.out.println(admin.isTodayAHoliday());
 	        
 	        HrDepartment hr = new HrDepartment();
-	        System.out.println("\nWelcome to " + hr.departmentName());
+	        System.out.println("Welcome to " + hr.departmentName());
 	        System.out.println(hr.doActivity());
 	        System.out.println(hr.getTodaysWork());
 	        System.out.println(hr.getWorkDeadline());
 	        System.out.println(hr.isTodayAHoliday());
 	        
 	        TechDepartment tech = new TechDepartment();
-	        System.out.println("\nWelcome to " + tech.departmentName());
+	        System.out.println("Welcome to " + tech.departmentName());
 	        System.out.println(tech.getTodaysWork());
 	        System.out.println(tech.getWorkDeadline());
 	        System.out.println(tech.getTechStackInformation());
